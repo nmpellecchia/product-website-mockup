@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function NavBar() {
+  const [isActive, setActive] = useState(false);
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
+
   return (
-    <nav className="flex items-center justify-between bg-yellow-700 py-2 px-3 space-x-10">
+    <nav className="flex items-center justify-between bg-yellow-700 py-2 px-3 ">
       <div className="flex items-center space-x-4">
         <svg
           title="brand-logo"
@@ -22,7 +28,10 @@ function NavBar() {
 
       {/* hamburguer Icon */}
       <div class="block lg:hidden">
-        <button class="flex items-center px-3 py-2 text-white">
+        <button
+          class="flex items-center px-3 py-2 text-white"
+          onClick={handleToggle}
+        >
           <svg
             class="fill-current h-5 w-5"
             viewBox="0 0 20 20"
@@ -33,11 +42,23 @@ function NavBar() {
           </svg>
         </button>
       </div>
-      <div className="text-white absolute left-0 -top-full lg:static lg:flex lg:space-x-10 lg:items-center lg:justify-end">
-        <a href="#">Home</a>
-        <a href="#">Prices</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact</a>
+      <div
+        className={`bg-yellow-700 text-yellow-200 flex flex-col place-content-around items-center text-3xl h-full transform transition-all absolute top-0 left-0 duration-700 ${
+          isActive ? 'w-80 lg:w-auto' : '-translate-x-80 lg:translate-x-0'
+        } lg:text-base lg:static lg:flex-row lg:space-x-10 lg:items-center lg:justify-end`}
+      >
+        <a href="#" className="hover:text-white">
+          Home
+        </a>
+        <a href="#" className="hover:text-white">
+          Prices
+        </a>
+        <a href="#" className="hover:text-white">
+          About Us
+        </a>
+        <a href="#" className="hover:text-white">
+          Contact
+        </a>
       </div>
     </nav>
   );
