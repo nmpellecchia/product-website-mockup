@@ -10,7 +10,6 @@ import focusImg from './../imgs/clientOriented.svg';
 //
 import OurValues from './Values/OurValues';
 import Welcome from './Welcome/Welcome';
-import Footer from '../Footer/Footer';
 
 function MainDiv() {
   const valuesArr = [
@@ -42,8 +41,7 @@ function MainDiv() {
   return (
     <>
       <Welcome bgImage={landImg} />
-      {/* <OurValues valuesArr={valuesArr} /> */}
-      <Footer />
+      <OurValues valuesArr={valuesArr} />
     </>
   );
 }
