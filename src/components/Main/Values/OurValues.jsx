@@ -2,11 +2,11 @@ import React from 'react';
 
 function OurValues(props) {
   return (
-    <article className=" bg-yellow-500 ">
+    <article className="h-screen bg-yellow-500 ">
       <h1 className="text-3xl font-title text-white ml-3 pt-3">
         Our core values
       </h1>
-      <ul className="grid grid-cols-3 gap-10 p-10">
+      <ul className="h-3/4 grid grid-cols-2 gap-5 p-10 lg:grid-cols-3 lg:gap-10">
         {props.valuesArr.map(value => {
           return (
             <li
