@@ -3,10 +3,10 @@ import React from 'react';
 function AboutUs() {
   return (
     <section className="bg-yellow-500 text-white flex flex-col items-center justify-center py-10">
-      <article className="h-screen w-full flex flex-col items-center px-5 mx-5 lg:px-10 lg:mx-10">
-        <div className="w-10/12">
+      <article className="h-full w-full flex flex-col items-center px-5 mx-5 lg:h-screen lg:px-10 lg:mx-10">
+        <div className="w-10/12 h-24 lg:mb-6 lg:h-auto">
           <div
-            className="h-5 w-full bg-pink-500 relative top-1/2 z-0 transform -rotate-6 -translate-x-6"
+            className="h-5 w-full bg-pink-500 relative top-1/2 z-0 transform -rotate-6 -translate-x-6 lg:h-10 lg:-rotate-3"
             style={{ content: '""' }}
           ></div>
           <h1 className="font-title text-3xl relative z-20 lg:text-5xl lg:px-1">
@@ -17,20 +17,26 @@ function AboutUs() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut
           tenetur tempore consectetur animi minima adipisci, repellat vel earum,
           impedit perspiciatis unde dolorem velit? Necessitatibus ex maxime
-          ipsam aspernatur commodi corporis?
+          ipsam aspernatur commodi corporis? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quibusdam sequi nobis eius in voluptatum
+          fuga provident repellendus iste ad repellat voluptatibus cum earum
+          soluta cupiditate ab labore doloremque assumenda excepturi, sint
+          corporis minima veniam maiores. Alias animi architecto reprehenderit
+          incidunt maxime excepturi quod aut perferendis? Deleniti mollitia
+          sapiente vel nam!
         </p>
       </article>
       <article className="h-screen w-full flex flex-col items-center px-5 mx-5 lg:px-10 lg:mx-10">
-        <div className="w-10/12">
+        <div className="w-10/12 lg:mb-6">
           <div
-            className="h-5 w-full bg-pink-500 relative top-1/2 z-0 transform rotate-2 -translate-x-2"
+            className="h-5 w-full bg-pink-500 relative top-1/2 z-0 transform rotate-2 -translate-x-2 lg:h-10"
             style={{ content: '""' }}
           ></div>
           <h1 className="font-title text-5xl relative z-20 lg:px-1">
             our vision
           </h1>
         </div>
-        <ul className="h-full flex flex-col justify-around lg:flex-row">
+        <ul className="w-full h-full flex flex-col justify-around items-center lg:flex-row">
           <li className="w-40 h-40 border-2 border-white">
             <h2 className="bg-white text-yellow-500 text-center font-black">
               placeholder
@@ -55,17 +61,17 @@ function AboutUs() {
           </li>
         </ul>
       </article>
-      <article className="h-screen w-full flex flex-col items-center px-5 mx-5 lg:px-10 lg:mx-10">
-        <div className="w-10/12">
+      <article className="h-screen w-full flex flex-col items-center px-5 mx-5 mb-5 lg:px-10 lg:mx-10">
+        <div className="w-10/12 lg:mb-6">
           <div
-            className="h-5 w-full bg-pink-500 relative top-1/2 z-0 transform rotate-4 -translate-x-6"
+            className="h-5 w-full bg-pink-500 relative top-1/2 z-0 transform -rotate-3 -translate-x-6 lg:h-10"
             style={{ content: '""' }}
           ></div>
           <h1 className="font-title text-5xl relative z-20 lg:px-1">
             services
           </h1>
         </div>
-        <div className="relative">
+        <div className="relative w-full h-full">
           <svg
             className="w-full h-full fill-current text-yellow-600 absolute z-0"
             width="24"
