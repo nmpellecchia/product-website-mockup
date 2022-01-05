@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   const [isActive, setActive] = useState(false);
@@ -47,18 +48,18 @@ function NavBar() {
           isActive ? '' : '-translate-x-80 lg:translate-x-0'
         } lg:w-auto lg:text-base lg:static lg:flex-row lg:space-x-10 lg:items-center lg:justify-end`}
       >
-        <a href="#" className="hover:text-white">
-          Home
-        </a>
-        <a href="#" className="hover:text-white">
-          Prices
-        </a>
-        <a href="#" className="hover:text-white">
-          About Us
-        </a>
-        <a href="#" className="hover:text-white">
-          Contact
-        </a>
+        <Link to="/" className="uppercase hover:text-white">
+          home
+        </Link>
+        <Link to="pricing" className="uppercase hover:text-white">
+          prices
+        </Link>
+        <Link to="about" className="uppercase hover:text-white">
+          about us
+        </Link>
+        <Link to="contact" className="uppercase hover:text-white">
+          contact
+        </Link>
       </div>
     </nav>
   );
