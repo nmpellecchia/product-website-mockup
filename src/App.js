@@ -14,19 +14,21 @@ import { pricingPlans } from './components/Pricing/pricingPlans';
 
 function App() {
   return (
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route path="about" element={<AboutUs />} />
-        <Route
-          path="pricing"
-          element={<PricingList pricingPlans={pricingPlans} />}
-        />
-        <Route path="contact" element={<Contact />} />
-        <Route exact path="/" element={<MainDiv />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div className="text-yellow-900">
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="about" element={<AboutUs />} />
+          <Route
+            path="pricing"
+            element={<PricingList pricingPlans={pricingPlans} />}
+          />
+          <Route path="contact" element={<Contact />} />
+          <Route exact path="/" element={<MainDiv />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 
