@@ -44,7 +44,7 @@ function NavBar() {
         </button>
       </div>
       <div
-        className={`bg-yellow-700 text-yellow-200 w-80 flex flex-col place-content-around items-center text-3xl h-full transform transition-all absolute top-0 left-0 duration-700 ${
+        className={`bg-yellow-700 text-yellow-200 w-80 flex flex-col place-content-around items-center text-3xl h-full transform transition-all fixed top-0 left-0 duration-700 z-50 ${
           isActive ? '' : '-translate-x-80 lg:translate-x-0'
         } lg:w-auto lg:text-base lg:static lg:flex-row lg:space-x-10 lg:items-center lg:justify-end`}
       >
