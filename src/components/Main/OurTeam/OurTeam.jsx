@@ -2,7 +2,7 @@ import React from 'react';
 
 function OurTeam() {
   return (
-    <article className="h-screen flex flex-col gap-16 py-3 px-6 bg-gradient-to-t from-yellow-500 to-yellow-300 lg:flex-row lg:justify-around lg:items-center lg:px-10">
+    <article className="h-screen flex flex-col gap-16  px-6 bg-gradient-to-t from-yellow-500 to-yellow-300 lg:h-fit lg:flex-row lg:justify-around lg:items-center lg:px-10 ">
       <h1 className="text-5xl font-title text-yellow-100 leading-7 transition transform duration-500 hover:scale-125">
         real people <br /> for <br /> real problems
       </h1>

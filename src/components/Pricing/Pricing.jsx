@@ -14,7 +14,7 @@ function PricingItem(props) {
   return (
     <ul className="w-full h-96 border-2 border-yellow-200 rounded-md flex flex-col items-center justify-between lg:w-2/3 lg:h-3/4">
       <li className="bg-yellow-200 w-full h-16 flex justify-center py-2 lg:h-20">
-        <img className="h-full" src={props.planInfo.img} />
+        <img className="h-full" src={props.planInfo.img} alt="" />
       </li>
       <li>
         <h1 className="text-3xl capitalize font-title">
