@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/product-website-mockup/static/css/main.cba82948.chunk.css",
+    "main.js": "/product-website-mockup/static/js/main.35270817.chunk.js",
+    "main.js.map": "/product-website-mockup/static/js/main.35270817.chunk.js.map",
+    "runtime-main.js": "/product-website-mockup/static/js/runtime-main.bc07a1da.js",
+    "runtime-main.js.map": "/product-website-mockup/static/js/runtime-main.bc07a1da.js.map",
+    "static/js/2.671dfcbf.chunk.js": "/product-website-mockup/static/js/2.671dfcbf.chunk.js",
+    "static/js/2.671dfcbf.chunk.js.map": "/product-website-mockup/static/js/2.671dfcbf.chunk.js.map",
+    "static/js/3.a2ae693b.chunk.js": "/product-website-mockup/static/js/3.a2ae693b.chunk.js",
+    "static/js/3.a2ae693b.chunk.js.map": "/product-website-mockup/static/js/3.a2ae693b.chunk.js.map",
+    "index.html": "/product-website-mockup/index.html",
+    "static/css/main.cba82948.chunk.css.map": "/product-website-mockup/static/css/main.cba82948.chunk.css.map",
+    "static/js/2.671dfcbf.chunk.js.LICENSE.txt": "/product-website-mockup/static/js/2.671dfcbf.chunk.js.LICENSE.txt",
+    "static/media/clientOriented.8576180b.svg": "/product-website-mockup/static/media/clientOriented.8576180b.svg",
+    "static/media/enterprise.21b0faf0.svg": "/product-website-mockup/static/media/enterprise.21b0faf0.svg",
+    "static/media/innovation.d88e71aa.svg": "/product-website-mockup/static/media/innovation.d88e71aa.svg",
+    "static/media/land_img.eb898265.jpg": "/product-website-mockup/static/media/land_img.eb898265.jpg",
+    "static/media/lite.fadce61c.svg": "/product-website-mockup/static/media/lite.fadce61c.svg",
+    "static/media/passion.50849bdf.svg": "/product-website-mockup/static/media/passion.50849bdf.svg",
+    "static/media/pro.37e972e8.svg": "/product-website-mockup/static/media/pro.37e972e8.svg",
+    "static/media/responsability.84da849e.svg": "/product-website-mockup/static/media/responsability.84da849e.svg",
+    "static/media/satisfaction.e80a60a5.svg": "/product-website-mockup/static/media/satisfaction.e80a60a5.svg",
+    "static/media/trust.dc6b17d1.svg": "/product-website-mockup/static/media/trust.dc6b17d1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc07a1da.js",
+    "static/js/2.671dfcbf.chunk.js",
+    "static/css/main.cba82948.chunk.css",
+    "static/js/main.35270817.chunk.js"
+  ]
+}
