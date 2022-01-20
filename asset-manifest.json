@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/product-website-mockup/static/css/main.cba82948.chunk.css",
-    "main.js": "/product-website-mockup/static/js/main.35270817.chunk.js",
-    "main.js.map": "/product-website-mockup/static/js/main.35270817.chunk.js.map",
+    "main.js": "/product-website-mockup/static/js/main.54e280b8.chunk.js",
+    "main.js.map": "/product-website-mockup/static/js/main.54e280b8.chunk.js.map",
     "runtime-main.js": "/product-website-mockup/static/js/runtime-main.bc07a1da.js",
     "runtime-main.js.map": "/product-website-mockup/static/js/runtime-main.bc07a1da.js.map",
     "static/js/2.671dfcbf.chunk.js": "/product-website-mockup/static/js/2.671dfcbf.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.bc07a1da.js",
     "static/js/2.671dfcbf.chunk.js",
     "static/css/main.cba82948.chunk.css",
-    "static/js/main.35270817.chunk.js"
+    "static/js/main.54e280b8.chunk.js"
   ]
 }
